@@ -1,11 +1,19 @@
-import { RootLayoutProps } from "types";
 import "./globals.css";
+import { Roboto } from "@next/font/google";
+import { RootLayoutProps } from "types";
+
+const roboto = Roboto({
+    weight: ["100", "300", "400", "500", "700", "900"],
+    subsets: ["latin"],
+});
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     return (
         <html lang="en">
             <head />
-            <body>{children}</body>
+            <body className={`${roboto.className} bg-theme text-white`}>
+                {children}
+            </body>
         </html>
     );
 };
