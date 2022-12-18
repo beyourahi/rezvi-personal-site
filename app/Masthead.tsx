@@ -1,4 +1,5 @@
 import { brandName, tagline, description } from "data.json";
+import Button from "./Button";
 
 const Masthead = () => {
     return (
@@ -19,9 +20,7 @@ const Masthead = () => {
                 <p className="text-lg text-subHeading">{description}</p>
             </div>
 
-            <button className="px-8 py-4 text-base tracking-wider transition-all border rounded-md border-coolGreen text-coolGreen hover:bg-coolGreen/10">
-                Get In Touch!
-            </button>
+            <Button>Get In Touch!</Button>
         </div>
     );
 };
