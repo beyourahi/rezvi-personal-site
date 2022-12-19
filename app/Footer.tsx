@@ -4,7 +4,7 @@ import { FaFacebookSquare, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 const year = new Date().getFullYear();
 
 export const Footer = () => (
-    <div className="flex flex-col items-center mb-8 space-y-10">
+    <div className="flex flex-col items-center space-y-10 bg-cyan-800">
         <div className="flex space-x-16 text-2xl text-subHeading">
             <a href={facebookURL} target="_blank" rel="noreferrer">
                 <FaFacebookSquare />

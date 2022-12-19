@@ -4,7 +4,7 @@ import { email } from "data.json";
 
 export const Contact = () => (
     <div
-        className="flex flex-col items-center justify-center mb-40 space-y-10 text-center px-7"
+        className="flex flex-col items-center justify-center space-y-10 text-center bg-purple-800 px-7"
         id="contact"
     >
         <div className="space-y-2">

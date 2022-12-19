@@ -3,7 +3,7 @@ import headshot from "@/public/images/headshot.jpeg";
 import { brandName } from "data.json";
 
 export const About = () => (
-    <div className="flex flex-col items-center h-screen space-y-10 px-7">
+    <div className="flex flex-col items-center space-y-10 bg-green-800 px-7">
         <h1 className="text-2xl font-extrabold text-heading">About Me </h1>
 
         <div className="space-y-4 text-base text-subHeading">
