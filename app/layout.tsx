@@ -7,15 +7,13 @@ const roboto = Roboto({
     subsets: ["latin"],
 });
 
-const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
-    return (
-        <html lang="en">
-            <head />
-            <body className={`${roboto.className} bg-theme text-white`}>
-                {children}
-            </body>
-        </html>
-    );
-};
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (
+    <html lang="en">
+        <head />
+        <body className={`${roboto.className} bg-theme text-white`}>
+            {children}
+        </body>
+    </html>
+);
 
 export default RootLayout;
