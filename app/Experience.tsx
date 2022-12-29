@@ -1,7 +1,11 @@
+import { WorkTabs } from "./WorkTabs";
+
 export const Experience = () => (
-    <div className="flex flex-col items-center space-y-10 bg-yellow-900 px-7">
-        <h1 className="text-2xl font-extrabold text-heading">
+    <div className="flex flex-col space-y-10">
+        <h1 className="text-2xl font-extrabold text-center text-heading">
             Where I&apos;ve Worked
         </h1>
+
+        <WorkTabs />
     </div>
 );

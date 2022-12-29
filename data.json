@@ -7,5 +7,65 @@
     "contactDesc": "I'm currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
     "facebookURL": "https://www.facebook.com/raihana.rezvi/",
     "instagramURL": "https://www.instagram.com/coffee_dorkar/",
-    "linkedinURL": "https://www.linkedin.com/in/sanjana-rezvi-b59752207"
+    "linkedinURL": "https://www.linkedin.com/in/sanjana-rezvi-b59752207",
+    "works": [
+        {
+            "company_name": "WeTech Digital",
+            "company_link": "https://www.digitalmarketingbd.com/",
+            "job_title": "Content and Blog Writer Intern",
+            "tenure": "June - August 2022"
+        },
+        {
+            "company_name": "Nagorik Times",
+            "company_link": "https://www.nagoriktimes.com/",
+            "job_title": "Entertainment Topic Writer",
+            "tenure": "April - June 2022"
+        },
+        {
+            "company_name": "Digital Marketing Solution",
+            "company_link": "https://www.digitalmarketingbd.com/",
+            "job_title": "Content and Blog Writer Intern",
+            "tenure": "November 2021 - January 2022"
+        },
+        {
+            "company_name": "Shampoo BD",
+            "company_link": "https://shampoobd.com/en",
+            "job_title": "Content Editor",
+            "tenure": "July - October 2021"
+        }
+    ],
+    "services": [
+        {
+            "service_name": "Website Content Writing",
+            "service_desc": "Creating written content for websites, including homepage copy, product descriptions, blog posts, and other web pages. The goal is to provide engaging and informative content that helps drive traffic and conversions on the website"
+        },
+        {
+            "service_name": "Blog Writing",
+            "service_desc": "Creating regular blog posts for a company or individual. The content should be informative, engaging, and in line with the company's tone and brand voice"
+        },
+        {
+            "service_name": "Social Media Content Creation",
+            "service_desc": "Creating written content for social media platforms, such as Facebook, Instagram, and Twitter. The content could be in the form of social media posts, captions, or hashtags"
+        },
+        {
+            "service_name": "Press releases",
+            "service_desc": "Writing press releases for companies or organizations to announce news, events, or other important updates to the media and public"
+        },
+        {
+            "service_name": "Email marketing",
+            "service_desc": "Creating written content for email marketing campaigns, including newsletters, promotional emails, and other types of email marketing materials"
+        },
+        {
+            "service_name": "Ghostwriting",
+            "service_desc": "Writing content for someone else, either an individual or a company, under their name. Ghostwriting may involve writing blog posts, articles, books, or other types of content"
+        },
+        {
+            "service_name": "SEO Writing",
+            "service_desc": "Writing content that is optimized for search engines, including using targeted keywords and phrases to help improve the website's search engine rankings"
+        },
+        {
+            "service_name": "Technical writing",
+            "service_desc": "Creating written content that explains complex technical concepts or processes in a clear and concise manner. This could include creating user manuals, instruction guides, or other technical documentation"
+        }
+    ]
 }
