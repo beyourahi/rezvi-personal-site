@@ -3,8 +3,8 @@ import { Roboto } from "@next/font/google";
 import { RootLayoutProps } from "types";
 
 const roboto = Roboto({
-    weight: ["100", "300", "400", "500", "700", "900"],
     subsets: ["latin"],
+    weight: ["100", "300", "400", "500", "700", "900"],
 });
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (

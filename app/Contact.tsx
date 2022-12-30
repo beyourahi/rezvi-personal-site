@@ -1,10 +1,9 @@
 import { contactHeading, contactDesc } from "data.json";
-import { ContactButton } from "./ContactButton";
-import { email } from "data.json";
+import { ContactForm } from "./ContactForm";
 
 export const Contact = () => (
     <div
-        className="flex flex-col items-center justify-center space-y-10 text-center bg-purple-800 px-7"
+        className="flex flex-col items-center justify-center space-y-10 text-center px-7"
         id="contact"
     >
         <div className="space-y-2">
@@ -17,6 +16,6 @@ export const Contact = () => (
             <p className="text-lg text-subHeading">{contactDesc}</p>
         </div>
 
-        <ContactButton href={`mailto:${email}`}>Say Hello!</ContactButton>
+        <ContactForm />
     </div>
 );

@@ -6,7 +6,7 @@ import { Experience } from "./Experience";
 import { Services } from "./Services";
 
 const Home = () => (
-    <main>
+    <main className="space-y-40">
         <Masthead />
         <About />
         <Experience />

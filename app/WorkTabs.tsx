@@ -35,6 +35,10 @@ export const WorkTabs = () => (
             <Tab.Panels>
                 {works.map((work, index) => (
                     <Tab.Panel key={index} className="py-10 space-y-4 px-7">
+                        <p className="text-base text-subHeading">
+                            {work.tenure}
+                        </p>
+
                         <p className="text-[1.3rem] font-bold">
                             <span className="text-heading">
                                 {work.job_title}
@@ -51,10 +55,6 @@ export const WorkTabs = () => (
                                     {work.company_name}
                                 </a>
                             </span>
-                        </p>
-
-                        <p className="text-base text-subHeading">
-                            {work.tenure}
                         </p>
                     </Tab.Panel>
                 ))}

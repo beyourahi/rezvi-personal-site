@@ -4,7 +4,7 @@ import { FaFacebookSquare, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 const year = new Date().getFullYear();
 
 export const Footer = () => (
-    <div className="flex flex-col items-center space-y-10 bg-cyan-800">
+    <div className="flex flex-col items-center pb-10 space-y-8">
         <div className="flex space-x-16 text-2xl text-subHeading">
             <a href={facebookURL} target="_blank" rel="noreferrer">
                 <FaFacebookSquare />
@@ -18,7 +18,7 @@ export const Footer = () => (
         </div>
 
         <div className="space-y-3 text-center">
-            <div className="text-base text-subHeading">
+            {/* <div className="text-base text-subHeading">
                 Designed & Built by{" "}
                 <a
                     href="https://github.com/beyourahi"
@@ -28,7 +28,7 @@ export const Footer = () => (
                 >
                     Rahi Khan
                 </a>
-            </div>
+            </div> */}
 
             <div className="text-base text-subHeading">
                 Copyright &copy; {year} {brandName}{" "}

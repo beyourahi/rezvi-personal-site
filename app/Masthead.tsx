@@ -2,9 +2,9 @@ import { brandName, tagline, description } from "data.json";
 import { ContactButton } from "./ContactButton";
 
 export const Masthead = () => (
-    <div className="flex flex-col items-start justify-center space-y-10 bg-red-800 px-7">
+    <div className="flex flex-col items-start justify-center h-screen space-y-10 px-7">
         <div className="space-y-6">
-            <div className="space-y-2">
+            <div>
                 <h4 className="text-lg text-coolGreen">Hi, my name is</h4>
 
                 <h1 className="text-[2.5rem] font-extrabold text-heading">
