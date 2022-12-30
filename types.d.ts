@@ -14,3 +14,10 @@ export interface Work {
     job_title: string;
     tenure?: string;
 }
+
+export interface ServiceCardInterface {
+    service: {
+        service_name: string;
+        service_desc: string;
+    };
+}
