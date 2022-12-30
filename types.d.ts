@@ -5,7 +5,7 @@ export interface Children {
 export interface RootLayoutProps extends Children {}
 
 export interface ButtonProps extends Children {
-    href: string;
+    href?: string;
 }
 
 export interface Work {
