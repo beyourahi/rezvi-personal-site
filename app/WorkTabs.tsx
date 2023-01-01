@@ -11,7 +11,7 @@ export const WorkTabs = () => (
                     <Tab key={index}>
                         {({ selected }) => (
                             <div
-                                className={`h-full flex items-center justify-center px-10 py-1 transition-all group hover:bg-white/10 border-b-4 ${
+                                className={`h-full flex items-center justify-center px-10 py-1 transition-all group hover:bg-white/10 border-b-4 xl:py-4 ${
                                     selected
                                         ? "bg-white/10 decoration-coolGreen border-b-coolGreen"
                                         : "border-b-white/10"

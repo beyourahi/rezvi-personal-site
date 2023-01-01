@@ -4,7 +4,7 @@
     "aboutme2": "With a strong background in writing and communication, I am skilled in crafting clear and concise pieces that effectively communicate complex ideas. I am also adept at researching and organizing information, and am able to adapt my writing style to fit the needs of any project",
     "aboutme3": "Whether I am writing blog posts, articles, or website content, I always strive to produce high-quality work that meets the needs of my clients and exceeds their expectations",
     "email": "rezvisanjana@gmail.com",
-    "tagline": "I create powerful content crafted with care",
+    "tagline": "I write content for the web",
     "description": "I'm a content writer, specializing in creating high-quality accurate and informative written content, including blog posts, articles, and website copy with my excellent research skills.",
     "contactHeading": "Get In Touch",
     "contactDesc": "I'm currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
@@ -69,6 +69,10 @@
         {
             "service_name": "Technical writing",
             "service_desc": "Creating written content that explains complex technical concepts or processes in a clear and concise manner. This could include creating user manuals, instruction guides, or other technical documentation"
+        },
+        {
+            "service_name": "Article writing",
+            "service_desc": "Writing articles for magazines, newspapers, or online publications that cover a range of topics, from current events to lifestyle to business"
         }
     ]
 }

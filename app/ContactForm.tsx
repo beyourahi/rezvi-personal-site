@@ -4,31 +4,31 @@ export const ContactForm = () => (
             <input
                 type="text"
                 placeholder="Name"
-                className="p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none bg-white/10 font-ps md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-heading"
+                className="p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none bg-white/10 font-ps md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-subHeading"
             />
 
             <input
                 type="email"
                 placeholder="Email Address"
-                className="p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none bg-white/10 font-ps md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-heading"
+                className="p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none bg-white/10 font-ps md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-subHeading"
             />
 
             <input
                 type="tel"
                 placeholder="Phone Number"
-                className="p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none bg-white/10 font-ps md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-heading"
+                className="p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none bg-white/10 font-ps md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-subHeading"
             />
 
             <input
                 type="text"
-                placeholder="Comapany or Organization"
-                className="p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none bg-white/10 font-ps md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-heading"
+                placeholder="Company or Organization"
+                className="p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none bg-white/10 font-ps md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-subHeading"
             />
 
             <textarea
                 rows={5}
                 placeholder="Write your message..."
-                className="col-span-2 row-span-3 p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none resize-none font-ps bg-white/10 md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-heading"
+                className="col-span-2 row-span-3 p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none resize-none font-ps bg-white/10 md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-subHeading"
             />
 
             <button
