@@ -21,3 +21,8 @@ export interface ServiceCardInterface {
         service_desc: string;
     };
 }
+
+export interface ModalInterface {
+    isOpen: boolean;
+    closeModal: () => void;
+}
