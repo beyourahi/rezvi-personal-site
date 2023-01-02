@@ -5,15 +5,15 @@ const year = new Date().getFullYear();
 
 export const Footer = () => (
     <div className="container flex flex-col items-center pb-10 mx-auto space-y-8 px-7 sm:px-14 md:px-20 lg:px-28 xl:px-44 2xl:px-72">
-        <div className="flex space-x-16 text-2xl text-subHeading">
+        <div className="flex space-x-16 text-subHeading lg:hidden">
             <a href={facebookURL} target="_blank" rel="noreferrer">
-                <FaFacebookSquare />
+                <FaFacebookSquare size={23} />
             </a>
             <a href={instagramURL} target="_blank" rel="noreferrer">
-                <FaInstagram />
+                <FaInstagram size={23} />
             </a>
             <a href={linkedinURL} target="_blank" rel="noreferrer">
-                <FaLinkedinIn />
+                <FaLinkedinIn size={23} />
             </a>
         </div>
 
