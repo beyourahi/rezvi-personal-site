@@ -1,6 +1,6 @@
 import { brandName, tagline, description } from "data.json";
 import { Arrow } from "./Arrow";
-import { ContactButton } from "./ContactButton";
+import { Button } from "./Button";
 
 export const Masthead = () => (
     <div className="container relative flex flex-col items-start justify-center h-screen mx-auto space-y-10 px-7 sm:px-14 md:px-20 lg:px-28 xl:px-44 2xl:px-72">
@@ -20,7 +20,7 @@ export const Masthead = () => (
             <p className="text-lg text-subHeading xl:w-[60%]">{description}</p>
         </div>
 
-        <ContactButton href="#contact">Get In Touch!</ContactButton>
+        <Button href="#contact">Get In Touch!</Button>
 
         {/*//! Arrow  */}
         <Arrow />

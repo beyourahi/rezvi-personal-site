@@ -8,10 +8,10 @@ export const WorkTabs = () => (
         <Tab.Group>
             <Tab.List className="flex overflow-x-auto">
                 {works.map((work, index) => (
-                    <Tab key={index}>
+                    <Tab key={index} className="focus:outline-none">
                         {({ selected }) => (
                             <div
-                                className={`h-full flex items-center justify-center px-10 py-1 transition-all group hover:bg-white/10 border-b-4 xl:py-4 ${
+                                className={`h-full flex items-center justify-center px-10 py-1 transition-all ease-in group hover:bg-white/10 border-b-4 xl:py-4 ${
                                     selected
                                         ? "bg-white/10 decoration-coolGreen border-b-coolGreen"
                                         : "border-b-white/10"

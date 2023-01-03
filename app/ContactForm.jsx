@@ -2,6 +2,7 @@
 
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
+import { Button } from "./Button";
 import { Modal } from "./Modal";
 
 const SERVICE_ID = "contact_service";
@@ -92,12 +93,7 @@ export const ContactForm = () => {
                         className="col-span-2 row-span-3 p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none resize-none font-ps bg-white/10 md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-subHeading"
                     />
 
-                    <button
-                        type="submit"
-                        className="col-span-2 py-4 text-lg font-bold tracking-wider text-center transition-all ease-in border rounded-lg border-coolGreen hover:bg-coolGreen/10 px-9 text-coolGreen"
-                    >
-                        Submit
-                    </button>
+                    <Button onClick={handleSubmit}>Submit</Button>
                 </form>
             </div>
         );

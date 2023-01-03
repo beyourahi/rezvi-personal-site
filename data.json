@@ -37,7 +37,7 @@
             "tenure": "July - October 2021"
         }
     ],
-    "services": [
+    "services_1": [
         {
             "service_name": "Website Content Writing",
             "service_desc": "Creating written content for websites, including homepage copy, product descriptions, blog posts, and other web pages. The goal is to provide engaging and informative content that helps drive traffic and conversions on the website"
@@ -61,7 +61,9 @@
         {
             "service_name": "Ghostwriting",
             "service_desc": "Writing content for someone else, either an individual or a company, under their name. Ghostwriting may involve writing blog posts, articles, books, or other types of content"
-        },
+        }
+    ],
+    "services_2": [
         {
             "service_name": "SEO Writing",
             "service_desc": "Writing content that is optimized for search engines, including using targeted keywords and phrases to help improve the website's search engine rankings"

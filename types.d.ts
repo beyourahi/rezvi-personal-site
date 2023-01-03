@@ -6,6 +6,7 @@ export interface RootLayoutProps extends Children {}
 
 export interface ButtonProps extends Children {
     href?: string;
+    onClick?: () => void;
 }
 
 export interface Work {
