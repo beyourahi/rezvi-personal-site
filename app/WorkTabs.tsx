@@ -2,6 +2,9 @@
 
 import { Tab } from "@headlessui/react";
 import { works } from "data.json";
+import { Roboto_Mono } from "@next/font/google";
+
+const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
 export const WorkTabs = () => (
     <div>
@@ -18,7 +21,9 @@ export const WorkTabs = () => (
                                 }`}
                             >
                                 <p
-                                    className={`text-base group-hover:text-coolGreen ${
+                                    className={`${
+                                        roboto_mono.className
+                                    } text-base group-hover:text-coolGreen ${
                                         selected
                                             ? "text-coolGreen"
                                             : "text-subHeading"
@@ -35,7 +40,7 @@ export const WorkTabs = () => (
             <Tab.Panels>
                 {works.map((work, index) => (
                     <Tab.Panel key={index} className="py-10 space-y-4 px-7">
-                        <p className="text-base text-subHeading">
+                        <p className={`${roboto_mono.className} text-base text-subHeading`}>
                             {work.tenure}
                         </p>
 

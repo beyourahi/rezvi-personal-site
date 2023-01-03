@@ -1,18 +1,16 @@
 import "./globals.css";
-import { Roboto } from "@next/font/google";
 import { RootLayoutProps } from "types";
 import { Socials } from "./Socials";
 import { Email } from "./Email";
+import { Roboto_Mono, Open_Sans } from "@next/font/google";
 
-const roboto = Roboto({
-    subsets: ["latin"],
-    weight: ["100", "300", "400", "500", "700", "900"],
-});
+const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
+const open_sans = Open_Sans({ subsets: ["latin"] });
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (
     <html lang="en">
         <head />
-        <body className={`${roboto.className} bg-theme text-white`}>
+        <body className={`${open_sans.className} bg-theme`}>
             <Socials />
             {children}
             <Email />

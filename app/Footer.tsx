@@ -1,6 +1,8 @@
 import { brandName, facebookURL, instagramURL, linkedinURL } from "data.json";
 import { FaFacebookSquare, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { Roboto_Mono } from "@next/font/google";
 
+const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 const year = new Date().getFullYear();
 
 export const Footer = () => (
@@ -30,7 +32,9 @@ export const Footer = () => (
                 </a>
             </div> */}
 
-            <div className="text-base text-subHeading">
+            <div
+                className={`${roboto_mono.className} text-base text-subHeading`}
+            >
                 Copyright &copy; {year} {brandName}{" "}
             </div>
         </div>

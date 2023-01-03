@@ -2,8 +2,10 @@
 
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
-import { Button } from "./Button";
 import { Modal } from "./Modal";
+import { Roboto_Mono } from "@next/font/google";
+
+const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
 const SERVICE_ID = "contact_service";
 const TEMPLATE_ID = "contact_form";
@@ -93,7 +95,12 @@ export const ContactForm = () => {
                         className="col-span-2 row-span-3 p-4 text-base font-normal text-white transition-all ease-in border-none rounded-lg outline-none resize-none font-ps bg-white/10 md:text-lg focus:outline-coolGreen focus:outline-offset-0 focus:outline-2 focus:rounded-lg placeholder:text-subHeading"
                     />
 
-                    <Button onClick={handleSubmit}>Submit</Button>
+                    <button
+                        type="submit"
+                        className={`${roboto_mono.className} col-span-2 px-8 py-4 text-base font-bold tracking-wider text-center transition-all ease-in border rounded-lg cursor-pointer border-coolGreen text-coolGreen hover:bg-coolGreen/10 active:scale-95`}
+                    >
+                        Submit
+                    </button>
                 </form>
             </div>
         );

@@ -1,5 +1,8 @@
 import { contactHeading, contactDesc } from "data.json";
 import { ContactForm } from "./ContactForm";
+import { Roboto_Mono } from "@next/font/google";
+
+const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
 export const Contact = () => (
     <div
@@ -7,7 +10,9 @@ export const Contact = () => (
         id="contact"
     >
         <div className="flex flex-col items-center space-y-2">
-            <h4 className="text-lg text-coolGreen">What&apos;s Next?</h4>
+            <h4 className={`${roboto_mono.className} text-lg text-coolGreen`}>
+                What&apos;s Next?
+            </h4>
 
             <h1 className="text-[2.5rem] font-extrabold text-heading">
                 {contactHeading}
