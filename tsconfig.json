@@ -31,7 +31,8 @@
         "**/*.ts",
         "**/*.tsx",
         ".next/types/**/*.ts",
-        "app/components/contact/ContactForm.jsx"
+        "app/components/contact/ContactForm.jsx",
+        "app/components/contact/sendFormInfo.js"
     ],
     "exclude": ["node_modules"]
 }

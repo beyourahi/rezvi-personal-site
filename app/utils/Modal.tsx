@@ -43,7 +43,7 @@ export const Modal: React.FC<ModalInterface> = ({ isOpen, closeModal }) => (
                                 <span>Thanks for reaching out!</span>
                             </Dialog.Title>
                             <div>
-                                <p className="text-lg text-gray-500 xl:text-xl">
+                                <p className="text-lg font-semibold text-gray-500 xl:text-xl">
                                     I&apos;ll get back to you soon
                                 </p>
                             </div>
@@ -51,7 +51,7 @@ export const Modal: React.FC<ModalInterface> = ({ isOpen, closeModal }) => (
                             <div className="mt-6">
                                 <button
                                     type="button"
-                                    className="inline-flex justify-center px-6 py-3 text-sm font-bold text-teal-800 transition-all border border-transparent rounded-md bg-coolGreen/40 hover:bg-coolGreen focus:outline-none xl:text-base"
+                                    className="inline-flex justify-center px-6 py-3 text-sm font-bold text-teal-800 transition-all ease-in border border-transparent rounded-md bg-coolGreen/50 hover:bg-coolGreen focus:outline-none xl:text-base"
                                     onClick={closeModal}
                                 >
                                     Got it, thanks!

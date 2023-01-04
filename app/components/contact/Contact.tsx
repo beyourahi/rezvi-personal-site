@@ -1,20 +1,21 @@
 import { contactHeading, contactDesc } from "data.json";
 import { ContactForm } from "./ContactForm";
 import { Roboto_Mono } from "@next/font/google";
+import { Section } from "@/app/utils";
 
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
 export const Contact = () => (
-    <div
-        className="container flex flex-col items-center justify-center mx-auto space-y-10 text-center px-7 sm:px-14 md:px-20 lg:px-28 xl:px-44 2xl:px-96"
+    <Section
         id="contact"
+        classnames="items-center justify-center text-center 2xl:px-96"
     >
-        <div className="flex flex-col items-center space-y-2">
+        <div className="flex flex-col items-center space-y-4">
             <h4 className={`${roboto_mono.className} text-lg text-coolGreen`}>
                 What&apos;s Next?
             </h4>
 
-            <h1 className="text-[2.5rem] font-extrabold text-heading">
+            <h1 className={`text-[2.5rem] font-extrabold text-heading`}>
                 {contactHeading}
             </h1>
 
@@ -24,5 +25,5 @@ export const Contact = () => (
         </div>
 
         <ContactForm />
-    </div>
+    </Section>
 );

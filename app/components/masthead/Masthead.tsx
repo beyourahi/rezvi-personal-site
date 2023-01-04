@@ -1,11 +1,11 @@
 import { brandName, tagline, description } from "data.json";
 import { Roboto_Mono } from "@next/font/google";
-import { Button } from "@/app/utils";
+import { Button, Section } from "@/app/utils";
 
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
 export const Masthead = () => (
-    <div className="container relative flex flex-col items-start justify-center h-screen mx-auto space-y-10 px-7 sm:px-14 md:px-20 lg:px-28 xl:px-44 2xl:px-72">
+    <Section classnames="items-start justify-center h-screen">
         <div className="space-y-6">
             <div>
                 <h4
@@ -27,5 +27,5 @@ export const Masthead = () => (
         </div>
 
         <Button href="#contact">Get In Touch!</Button>
-    </div>
+    </Section>
 );

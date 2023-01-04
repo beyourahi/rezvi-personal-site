@@ -1,15 +1,11 @@
 "use client";
 
-import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { Modal } from "@/app/utils";
 import { Roboto_Mono } from "@next/font/google";
+import { sendFormInfo } from "./sendFormInfo";
 
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
-
-const SERVICE_ID = "contact_service";
-const TEMPLATE_ID = "contact_form";
-const PUBLIC_KEY = "yNfk0PUilDxSBLX7s";
 
 export const ContactForm = () => {
     const form = useRef();
@@ -19,27 +15,7 @@ export const ContactForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
-        try {
-            const res = await emailjs.sendForm(
-                `${SERVICE_ID}`,
-                `${TEMPLATE_ID}`,
-                form.current,
-                `${PUBLIC_KEY}`
-            );
-
-            form.current.reset();
-
-            openModal();
-
-            //! Close the modal after 3 seconds
-            setTimeout(() => closeModal(), 5000);
-
-            console.log(`Status: ${res.status}`);
-            console.log(`Message: ${res.text}`);
-        } catch (error) {
-            console.error(error);
-        }
+        sendFormInfo(form, openModal, closeModal);
     };
 
     {

@@ -1,31 +1,17 @@
-import { FaFacebook } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
-import { FiLinkedin } from "react-icons/fi";
-import { facebookURL, instagramURL, linkedinURL } from "data.json";
+import { VLine } from "@/app/utils";
+import { SocialIcons } from "./SocialIcons";
 
 export const Socials = () => (
-    <div className="fixed bottom-0 left-[5%] hidden lg:flex flex-col items-center space-y-7 h-[30%]">
-        <a href={facebookURL} target="_blank" rel="noreferrer">
-            <FaFacebook
-                className="transition-all ease-in text-subHeading hover:text-coolGreen hover:-translate-y-1 active:scale-95 hover:scale-110"
-                size={25}
-            />
-        </a>
+    <>
+        {/* //! Desktop version of socials component */}
+        <div className="fixed bottom-0 left-[5%] hidden lg:flex flex-col items-center space-y-7 h-[30%]">
+            <SocialIcons />
+            <VLine />
+        </div>
 
-        <a href={instagramURL} target="_blank" rel="noreferrer">
-            <BsInstagram
-                className="transition-all ease-in text-subHeading hover:text-coolGreen hover:-translate-y-1 active:scale-95 hover:scale-110"
-                size={25}
-            />
-        </a>
-
-        <a href={linkedinURL} target="_blank" rel="noreferrer">
-            <FiLinkedin
-                className="transition-all ease-in text-subHeading hover:text-coolGreen hover:-translate-y-1 active:scale-95 hover:scale-110"
-                size={25}
-            />
-        </a>
-
-        <hr className="w-px border-none bg-subHeading grow" />
-    </div>
+        {/* ///! Mobile version of socials component */}
+        <div className="flex space-x-16 text-subHeading lg:hidden">
+            <SocialIcons />
+        </div>
+    </>
 );
