@@ -1,5 +1,8 @@
 {
     "brandName": "Raihana Rezvi",
+    "website_desc": "Raihana Rezvi's Personal Website",
+    "dev_URL": "http://localhost:3000/",
+    "prod_URL": "https://rezvi-personal-site.vercel.app/",
     "email": "rezvisanjana@gmail.com",
     "tagline": "I write content for the web",
     "description": "I'm a content writer, specializing in creating high-quality accurate and informative written content, including blog posts, articles, and website copy with my excellent research skills.",
