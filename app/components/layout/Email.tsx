@@ -10,7 +10,7 @@ export const Email = () => (
             target="_blank"
             rel="noreferrer"
             style={{ writingMode: "vertical-lr", textOrientation: "sideways" }}
-            className={`${roboto_mono.className} text-base tracking-wider transition-all ease-in text-subHeading hover:text-coolGreen hover:-translate-y-1 active:scale-95`}
+            className={`${roboto_mono.className} text-base tracking-wider transition-all ease-in text-subHeading hover:text-coolGreen hover:-translate-y-1 active:scale-95 hover:scale-110`}
         >
             {email}
         </a>

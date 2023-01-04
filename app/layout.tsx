@@ -8,7 +8,7 @@ const open_sans = Open_Sans({ subsets: ["latin"] });
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (
     <html lang="en">
         <head />
-        <body className={`${open_sans.className} bg-theme`}>
+        <body className={`bg-theme ${open_sans.className}`}>
             <Socials />
             {children}
             <Email />
