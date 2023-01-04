@@ -1,15 +1,17 @@
-import { Contact } from "./Contact";
-import { Masthead } from "./Masthead";
-import { Footer } from "./Footer";
-import { About } from "./About";
-import { Experience } from "./Experience";
-import { Services } from "./Services";
+import {
+    Masthead,
+    About,
+    WorkExperiences,
+    Services,
+    Contact,
+    Footer,
+} from "@/app/components";
 
 const Home = () => (
     <main className="space-y-40">
         <Masthead />
         <About />
-        <Experience />
+        <WorkExperiences />
         <Services />
         <Contact />
         <Footer />

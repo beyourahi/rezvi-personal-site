@@ -1,10 +1,8 @@
 import "./globals.css";
 import { RootLayoutProps } from "types";
-import { Socials } from "./Socials";
-import { Email } from "./Email";
-import { Roboto_Mono, Open_Sans } from "@next/font/google";
+import { Open_Sans } from "@next/font/google";
+import { Email, Socials } from "@/app/components";
 
-const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 const open_sans = Open_Sans({ subsets: ["latin"] });
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (

@@ -1,9 +1,9 @@
 "use client";
 
-import { ServiceCard } from "./ServiceCard";
-import { services_1, services_2 } from "data.json";
-import { Button } from "./Button";
 import { useState } from "react";
+import { services_1, services_2 } from "data.json";
+import { ServiceCard } from "./ServiceCard";
+import { Button } from "@/app/utils";
 
 export const Services = () => {
     const [showMore, setShowMore] = useState(false);

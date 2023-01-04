@@ -2,7 +2,7 @@
 
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
-import { Modal } from "./Modal";
+import { Modal } from "@/app/utils";
 import { Roboto_Mono } from "@next/font/google";
 
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });

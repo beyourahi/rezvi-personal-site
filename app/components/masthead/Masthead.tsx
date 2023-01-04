@@ -1,6 +1,6 @@
 import { brandName, tagline, description } from "data.json";
-import { Button } from "./Button";
 import { Roboto_Mono } from "@next/font/google";
+import { Button } from "@/app/utils";
 
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
