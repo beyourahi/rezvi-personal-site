@@ -18,9 +18,14 @@ export interface Work {
 
 export interface ServiceCardInterface {
     service: {
+        icon: string;
         service_name: string;
         service_desc: string;
     };
+}
+
+export interface ServiceCardIconInterface {
+    icon: string;
 }
 
 export interface ModalInterface {

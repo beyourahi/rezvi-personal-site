@@ -39,42 +39,51 @@
     ],
     "services_1": [
         {
+            "icon": "FaGlobe",
             "service_name": "Website Content Writing",
-            "service_desc": "Creating written content for websites, including homepage copy, product descriptions, blog posts, and other web pages. The goal is to provide engaging and informative content that helps drive traffic and conversions on the website"
+            "service_desc": "Creating engaging and informative written content for websites, including homepage copy, product descriptions, blog posts, and other web pages that helps drive traffic and conversions on the website."
         },
         {
+            "icon": "FaBlog",
             "service_name": "Blog Writing",
-            "service_desc": "Creating regular blog posts for a company or individual. The content should be informative, engaging, and in line with the company's tone and brand voice"
+            "service_desc": "Creating regular blog posts for a company or individual. The content should be informative, engaging, and in line with the company's tone and brand voice."
         },
         {
+            "icon": "FaInternetExplorer",
             "service_name": "Social Media Content Creation",
-            "service_desc": "Creating written content for social media platforms, such as Facebook, Instagram, and Twitter. The content could be in the form of social media posts, captions, or hashtags"
+            "service_desc": "Creating written content for social media platforms, such as Facebook, Instagram, and Twitter. The content could be in the form of social media posts, captions, or hashtags."
         },
         {
+            "icon": "FaNewspaper",
             "service_name": "Press releases",
-            "service_desc": "Writing press releases for companies or organizations to announce news, events, or other important updates to the media and public"
+            "service_desc": "Writing press releases for companies or organizations to announce news, events, or other important updates to the media and public."
         },
         {
+            "icon": "HiOutlineMail",
             "service_name": "Email marketing",
-            "service_desc": "Creating written content for email marketing campaigns, including newsletters, promotional emails, and other types of email marketing materials"
+            "service_desc": "Creating written content for email marketing campaigns, including newsletters, promotional emails, and other types of email marketing materials."
         },
         {
-            "service_name": "Ghostwriting",
-            "service_desc": "Writing content for someone else, either an individual or a company, under their name. Ghostwriting may involve writing blog posts, articles, books, or other types of content"
+            "icon": "MdOutlineArticle",
+            "service_name": "Article writing",
+            "service_desc": "Writing articles for magazines, newspapers, or online publications that cover a range of topics, from current events to lifestyle to business."
         }
     ],
     "services_2": [
         {
+            "icon": "RxMagnifyingGlass",
             "service_name": "SEO Writing",
-            "service_desc": "Writing content that is optimized for search engines, including using targeted keywords and phrases to help improve the website's search engine rankings"
+            "service_desc": "Writing content that is optimized for search engines, including using targeted keywords and phrases to help improve the website's search engine rankings."
         },
         {
+            "icon": "BsGearFill",
             "service_name": "Technical writing",
-            "service_desc": "Creating written content that explains complex technical concepts or processes in a clear and concise manner. This could include creating user manuals, instruction guides, or other technical documentation"
+            "service_desc": "Creating written content that explains complex technical concepts or processes in a clear and concise manner. This could include creating user manuals, instruction guides, or other technical documentation."
         },
         {
-            "service_name": "Article writing",
-            "service_desc": "Writing articles for magazines, newspapers, or online publications that cover a range of topics, from current events to lifestyle to business"
+            "icon": "BiGhost",
+            "service_name": "Ghostwriting",
+            "service_desc": "Writing content for someone else, either an individual or a company, under their name. Ghostwriting may involve writing blog posts, articles, books, or other types of content."
         }
     ]
 }
