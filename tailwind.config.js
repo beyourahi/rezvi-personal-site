@@ -8,10 +8,10 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                theme: "#121212",
-                coolGreen: "#FFD700",
-                heading: "#f4f3ef",
-                subHeading: "#999999",
+                theme: "#0A192F",
+                coolGreen: "#64ffda",
+                heading: "#CCD6F6",
+                subHeading: "#8892B0",
             },
         },
     },
